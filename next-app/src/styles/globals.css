@@ -1,0 +1,14 @@
+@import './base.css';
+
+@media (max-width: 640px) {
+  .container {
+    @apply px-4;
+  }
+}
+
+
+@media screen and (max-width: 599px) {
+  input, input:active, input:focus, input:focus-within, input:hover, input:visited {
+    font-size: 16px!important;
+  }
+}

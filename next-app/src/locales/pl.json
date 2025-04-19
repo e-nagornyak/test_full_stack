@@ -1,0 +1,34 @@
+{
+  "order_public": {
+    "title": "MCP Siarhei Sheibak",
+    "download_invoice": "Pobierz fakturę",
+    "order_summary": "Podsumowanie zamówienia #{id}",
+    "product_service_name": "Nazwa produktu/usługi",
+    "quantity": "Ilość",
+    "price_per_unit": "Cena za jednostkę",
+    "total_order_price": "Łączna cena zamówienia: {total} {currency}",
+    "information": "Informacje",
+    "status": "Status: {status}",
+    "order_number": "Numer zamówienia: {id}",
+    "sale_date": "Data sprzedaży: {date}",
+    "payment_method": "Metoda płatności: {provider}",
+    "delivery_address": "Adres dostawy",
+    "full_name": "Pełne imię i nazwisko: {firstName} {lastName}",
+    "street": "Ulica: {street}",
+    "city": "Miasto: {city}",
+    "zip_code": "Kod pocztowy: {zipCode}",
+    "country": "Kraj: {country}",
+    "product_cost": "Koszt produktów: {productCost} {currency}",
+    "shipping_cost": "Koszt dostawy: {shippingCost} {currency}",
+    "total_amount": "Łączna kwota: {totalAmount} {currency}",
+    "delivery_number": "Numer dostawy",
+    "delivery": "Dostawa: {name}",
+    "form": {
+      "title": "Weryfikacja numeru telefonu",
+      "your_number": "Twój numer telefonu:",
+      "4_digits": "Wprowadź 4 ostatnie cyfry swojego numeru",
+      "incorrect": "Niepoprawny!",
+      "confirm": "Potwierdź"
+    }
+  }
+}
