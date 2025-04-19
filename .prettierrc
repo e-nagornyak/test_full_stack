@@ -1,0 +1,12 @@
+{
+  "endOfLine": "lf",
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "importOrderSeparation": false,
+  "importOrderSortSpecifiers": true,
+  "importOrderBuiltinModulesToTop": true,
+  "importOrderMergeDuplicateImports": true,
+  "importOrderCombineTypeAndValueImports": true,
+}
