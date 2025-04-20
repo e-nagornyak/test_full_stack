@@ -110,7 +110,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       >
         {loading ? (
           <div className="absolute inset-0 z-50 m-auto flex size-full items-center justify-center backdrop-blur-[2px]">
-            <Loader className="size-full animate-spin" />
+            <Loader className="size-[75%] animate-spin" />
           </div>
         ) : null}
         {children}

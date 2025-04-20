@@ -27,7 +27,7 @@ async function bootstrap() {
         callback(new Error('Unauthorized'))
       }
     },
-    methods: ['POST', 'OPTIONS', 'PATCH', 'OPTIONS', 'PUT'],
+    methods: ['POST', 'OPTIONS', 'PATCH', 'OPTIONS', 'PUT', 'DELETE'],
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization', 'X-API-KEY'],
     exposedHeaders: ['Content-Range', 'X-Content-Range'],

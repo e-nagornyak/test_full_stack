@@ -4,6 +4,7 @@ import { ThrottlerModule } from '@nestjs/throttler'
 import { AuthGuard } from './common/quards/auth-guard'
 import { AuthModule } from './features/auth/auth.module'
 import { GithubRepositoryModule } from './features/github-repository/github-repository.module'
+import { HealthModule } from './features/health/health.module';
 
 @Module({
   imports: [
@@ -18,6 +19,7 @@ import { GithubRepositoryModule } from './features/github-repository/github-repo
     ConfigModule.forRoot({ isGlobal: true }),
     AuthModule,
     GithubRepositoryModule,
+    HealthModule,
   ],
   providers: [AuthGuard],
   exports: [AuthGuard],

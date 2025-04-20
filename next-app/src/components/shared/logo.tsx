@@ -10,7 +10,7 @@ interface LogoProps {
 }
 
 export function Logo({
-  size = "xl",
+  size = "md",
   href = RoutePaths.public.home,
   className,
 }: LogoProps) {

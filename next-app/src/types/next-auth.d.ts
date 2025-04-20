@@ -6,7 +6,6 @@ declare module "next-auth" {
       id: string
       name?: string | null
       email?: string | null
-      image?: string | null
     }
     apiToken: string
   }
@@ -15,7 +14,6 @@ declare module "next-auth" {
     id: string
     email?: string | null
     name?: string | null
-    image?: string | null
     token?: string
   }
 }

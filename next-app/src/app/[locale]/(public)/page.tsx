@@ -2,10 +2,11 @@
 
 import * as React from "react"
 
+import { getCurrentUser } from "@/lib/auth/current-user"
+import { HomeAsyncController } from "@/components/@controllers/home/home-async-controller"
+
 export default async function Page() {
-  return (
-    <div className="from-background bg-linear-to-b via-gray-200 via-40% to-transparent dark:via-gray-700">
-      <div>Home page</div>
-    </div>
-  )
+  const user = await getCurrentUser()
+
+  return <HomeAsyncController user={user} />
 }

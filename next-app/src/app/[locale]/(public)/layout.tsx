@@ -2,7 +2,7 @@ import { DefaultPublicFooter } from "@/components/layouts/public/default/default
 import { DefaultPublicHeader } from "@/components/layouts/public/default/default-public-header"
 
 interface RootLayoutProps extends React.PropsWithChildren {
-  params: { locale?: string }
+  params: Promise<{ locale?: string }>
 }
 
 export default async function PublicRootLayout({ children }: RootLayoutProps) {

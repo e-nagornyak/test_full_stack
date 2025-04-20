@@ -40,7 +40,7 @@ lerna-debug.log*
 
 # dotenv environment variable files
 nest-app/.env
-.env*
+.env
 
 # temp directory
 .temp
